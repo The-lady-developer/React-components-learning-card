@@ -37,7 +37,7 @@ class App extends Component {
               ],
        });
       }
-     
+     //for list purpose 
       togglePersonsHandler = () => {
       const doesShow = this.state.showPersons;
       this.setState({showPersons: !doesShow});     
@@ -50,7 +50,7 @@ class App extends Component {
      border: '1px solid blue',
      padding: '8px',
      cursor: 'pointer'
-  };
+  };  //optional for using list and to make it comfortable with the future object
     let persons =  null;
 
      if (this.state.showPersons) {
@@ -69,7 +69,7 @@ class App extends Component {
         </div> 
       );
      }
-
+//now it will select whetrher to use it or not. and w e will do so by making it object oriented baasd on the outcome we get. 
 
     return (
       <div className="App">
